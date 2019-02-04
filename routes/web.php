@@ -25,10 +25,10 @@ Route::group(['middleware' => ['auth']], function() {
     Route::post('/admin/add/bot', 'AdminController@storeBot');
     Route::get('/admin/remove/bot', 'AdminController@displayBotRemoval');
     Route::Post('/admin/remove/bot', 'AdminController@removeBot');
-    Route::get('/admin/add/user', 'AdminController@displayUserRegistration');
-    Route::post('/admin/add/user', 'AdminController@storeUser');
-    Route::get('/admin/remove/user', 'AdminController@displayRemoveUser');
-    Route::post('/admin/remove/user', 'AdminController@removeUser');
+    Route::get('/admin/add/user', 'AdminController@displayAddRole');
+    Route::post('/admin/add/user', 'AdminController@storeAddRole');
+    Route::get('/admin/remove/user', 'AdminController@displayRemoveRole');
+    Route::post('/admin/remove/user', 'AdminController@removeRole');
 
     //Relay Panel
     Route::get('/relay/new', 'RelayController@displayRelay');
