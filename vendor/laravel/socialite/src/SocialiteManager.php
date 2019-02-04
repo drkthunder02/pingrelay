@@ -7,7 +7,6 @@ use Illuminate\Support\Str;
 use InvalidArgumentException;
 use Illuminate\Support\Manager;
 use Laravel\Socialite\Two\GithubProvider;
-use Laravel\Socialite\Two\GitlabProvider;
 use Laravel\Socialite\Two\GoogleProvider;
 use Laravel\Socialite\One\TwitterProvider;
 use Laravel\Socialite\Two\FacebookProvider;
@@ -108,7 +107,7 @@ class SocialiteManager extends Manager implements Contracts\Factory
         $config = $this->app['config']['services.gitlab'];
 
         return $this->buildProvider(
-            GitlabProvider::class, $config
+            \Laravel\Socialite\Two\GitlabProvider::class, $config
         );
     }
 

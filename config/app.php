@@ -167,6 +167,7 @@ return [
          */
         Zizaco\Entrust\EntrustServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        nullx27\Socialite\EveOnline\Providers\EveOnlineServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -177,8 +178,6 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         //Custom Providers below here
-        App\Providers\EveOnlineServiceProvider::class,
-        App\Providers\EveOnlineSocialiteProvider::class,
 
     ],
 

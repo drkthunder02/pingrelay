@@ -81,11 +81,8 @@ abstract class AbstractProvider implements ProviderContract
                 ->setToken($token->getIdentifier(), $token->getSecret());
 
         return $instance->map([
-            'id' => $user->uid,
-            'nickname' => $user->nickname,
-            'name' => $user->name,
-            'email' => $user->email,
-            'avatar' => $user->imageUrl,
+            'id' => $user->uid, 'nickname' => $user->nickname,
+            'name' => $user->name, 'email' => $user->email, 'avatar' => $user->imageUrl,
         ]);
     }
 
@@ -111,11 +108,8 @@ abstract class AbstractProvider implements ProviderContract
             ->setToken($tokenCredentials->getIdentifier(), $tokenCredentials->getSecret());
 
         return $instance->map([
-            'id' => $user->uid,
-            'nickname' => $user->nickname,
-            'name' => $user->name,
-            'email' => $user->email,
-            'avatar' => $user->imageUrl,
+            'id' => $user->uid, 'nickname' => $user->nickname,
+            'name' => $user->name, 'email' => $user->email, 'avatar' => $user->imageUrl,
         ]);
     }
 

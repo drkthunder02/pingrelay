@@ -39,6 +39,10 @@ class ComposerStaticInit570a29ceb8a990cd66d573bfd8deffb1
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'n' => 
+        array (
+            'nullx27\\Socialite\\EveOnline\\' => 28,
+        ),
         'Z' => 
         array (
             'Zizaco\\Entrust\\' => 15,
@@ -175,6 +179,10 @@ class ComposerStaticInit570a29ceb8a990cd66d573bfd8deffb1
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
             2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'nullx27\\Socialite\\EveOnline\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nullx27/eveonline-socialite/src',
         ),
         'Zizaco\\Entrust\\' => 
         array (
@@ -4626,6 +4634,9 @@ class ComposerStaticInit570a29ceb8a990cd66d573bfd8deffb1
         'Zizaco\\Entrust\\Traits\\EntrustPermissionTrait' => __DIR__ . '/..' . '/zizaco/entrust/src/Entrust/Traits/EntrustPermissionTrait.php',
         'Zizaco\\Entrust\\Traits\\EntrustRoleTrait' => __DIR__ . '/..' . '/zizaco/entrust/src/Entrust/Traits/EntrustRoleTrait.php',
         'Zizaco\\Entrust\\Traits\\EntrustUserTrait' => __DIR__ . '/..' . '/zizaco/entrust/src/Entrust/Traits/EntrustUserTrait.php',
+        'nullx27\\Socialite\\EveOnline\\Providers\\EveOnlineServiceProvider' => __DIR__ . '/..' . '/nullx27/eveonline-socialite/src/Providers/EveOnlineServiceProvider.php',
+        'nullx27\\Socialite\\EveOnline\\Providers\\EveOnlineSocialiteProvider' => __DIR__ . '/..' . '/nullx27/eveonline-socialite/src/Providers/EveOnlineSocialiteProvider.php',
+        'nullx27\\Socialite\\EveOnline\\Traits\\EveAuth' => __DIR__ . '/..' . '/nullx27/eveonline-socialite/src/Traits/EveAuth.php',
         'phpDocumentor\\Reflection\\DocBlock' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlock.php',
         'phpDocumentor\\Reflection\\DocBlockFactory' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactory.php',
         'phpDocumentor\\Reflection\\DocBlockFactoryInterface' => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src/DocBlockFactoryInterface.php',
