@@ -176,6 +176,9 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        //Custom Providers below here
+        App\Providers\EveOnlineServiceProvider::class,
+        App\Providers\EveOnlineSocialiteProvider::class,
 
     ],
 
